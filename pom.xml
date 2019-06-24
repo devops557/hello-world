@@ -22,18 +22,18 @@
   </modules>
 
   <distributionManagement>
-    <site>
+    <!-- <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
-    </site>
+    </site> -->
     <repository>
-    <id>releases</id>
+    <id>Art-Release</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://13.234.213.148:8081/nexus/content/repositories/Art-Release/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>Art-Snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://13.234.213.148:8081/nexus/content/repositories/Art-Snapshots/</url>
   </snapshotRepository>
