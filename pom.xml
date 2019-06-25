@@ -30,12 +30,12 @@
     <repository>
     <id>Art-Release</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.234.213.148:8081/nexus/content/repositories/Art-Release/</url>
+    <url>http://56.66.214.129:8081/nexus/content/repositories/Art-Release/</url>
   </repository>
   <snapshotRepository>
     <id>Art-Snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://13.234.213.148:8081/nexus/content/repositories/Art-Snapshots/</url>
+    <url>http://56.66.214.129:8081/nexus/content/repositories/Art-Snapshots/</url>
   </snapshotRepository>
   </distributionManagement>
 
